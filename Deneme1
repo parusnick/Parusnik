@@ -1,0 +1,18 @@
+first_name = "Fikret" 
+ last_name = "Mesiloğlu" 
+ age = 33 
+ age+=1 
+ print(age) 
+ print("Sen:"+ first_name+" "+last_name+" "+str(age)) 
+# print komutu kullanılırken tırnaktan sonra sadece aynı değişken türlerindekiler yazılabilir. Yani yukarıda ki satırda 
+# Tırnaktan içindeki "int" ve devamındaki + ile devam eden değişkenler de "int" ancak "age" değişkeni "str" yani sayısal 
+# Değişken olduğu için parantez içine alınıp türü belirtilmelidir! 
+ boy= 1.79 
+ print("Senin boyun:",boy,"cm") 
+ print(type(boy)) 
+# Ondalık sayıların türü float dır. Yine aynı şekilde "İnt" bir mesajı yazdırırken "float" türü bir değişken 
+# Yazıya eklenecekse "str" olduğu belirtilmelidir! 
+ insan = True 
+ print("Sen İnsan Mısın?"+ str(insan)) 
+ print(type(insan)) 
+# Boolean değişkeni mantık değişkenidir ve "str" parantezi ile yazdırılır.
